@@ -1,0 +1,67 @@
+body{
+    background-image: url(./IMG/fondo2.jpg);
+    background-size: cover;
+}
+h1,h2{
+    text-align: center;
+    margin-bottom: 2em;
+    font-family: DOMINICA;
+}
+form {
+    margin-left: 2em;
+    line-height: 2em;
+    font-family:DOMII___;
+    font-size: 1.5em;
+    display: grid; /* grid es para que te quede todo asi fachero el nombre y abajo la entrada de texto*/
+    max-width: 10em;
+    margin-left: 31em;
+}
+#button{
+    margin-left: 35em;
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;    
+}
+#button:hover {
+    background-color: #0056b3;
+}
+img{
+    width: 3em;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+a{
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-left: 0.5em;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linea {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7em;
+    font-family:DOMII___ ;
+}
+.volver button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 57.5em;
+}
+.volver button:hover {
+    background-color: #348038;
+  }

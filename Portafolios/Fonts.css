@@ -1,0 +1,28 @@
+@font-face {
+    font-family:hello_sunday;
+    src: url(./Fonts/hello_sunday_3/Hello\ Sunday.otf);
+}
+@font-face {
+    font-family: squarefont;
+    src: url(./Fonts/squarefont/Square.ttf);
+}
+@font-face {
+    font-family: amarillo;
+    src: url(./Fonts/amarillo/Amarillo.ttf);
+}
+@font-face {
+    font-family: Quicksand_Bold_Oblique;
+    src: url(./Fonts/quicksand/Quicksand_Bold_Oblique.otf);
+}
+@font-face {
+    font-family: Quicksand_Book_Oblique;
+    src: url(./Fonts/quicksand/Quicksand_Book_Oblique.otf);
+}
+@font-face {
+    font-family: DOMII___ ;
+    src: url(./Fonts/dominican/DOMII___.TTF);
+}
+@font-face {
+    font-family:DOMINICA ;
+    src: url(Fonts/dominican/DOMINICA.TTF);
+}

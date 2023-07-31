@@ -1,0 +1,53 @@
+body{
+ background-image: url(./IMG/Fondos\ \(1\).gif);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+    background-color: rgba(72, 177, 166, 0.499);
+    font-family:hello_sunday;
+}
+.block {
+  color: rgb(72, 240, 255);  
+  background-color: rgba(194, 0, 243, 0.144);
+    padding: 10px; 
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 50px;
+  }
+  #circulo{
+    width: 35%; 
+    height: auto;
+    top:-15%;
+    left: 33.1%;
+    position: absolute;
+    z-index: -1;
+  }
+/*TRANSICION DESVANECE IMG_1 APARECE IMG_2*/
+  .open {
+    width: 20%; 
+    height: auto; 
+    position: absolute;
+    top: 25%;
+    left: 41%;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.close {
+    width: 20%; 
+    height: auto;  
+    position: absolute;
+    top: 25%;
+    left: 41%;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+.img_div:hover .open{
+  opacity: 1;
+}
+ .img_div:hover .close {
+    opacity: 0;
+ }

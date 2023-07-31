@@ -1,0 +1,30 @@
+body{
+    background-image: url(./IMG/fondo3.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+    color: rgba(0, 130, 130, 0.605);
+    text-align: center;
+    font-size: 5em;
+    font-family: amarillo;
+    border-radius: 25em;
+}
+.volver button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 2em;
+   
+    position: absolute;
+}
+.volver button:hover {
+    background-color: #348038;
+  }

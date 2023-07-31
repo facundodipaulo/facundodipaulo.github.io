@@ -1,0 +1,72 @@
+body{
+    background-image: url(./IMG/pizarra.jpg);
+}
+h1{
+    text-align: center;
+    font-family: hello_sunday;
+    letter-spacing: 0.5em;
+    font-size: 3em;
+}
+h2{
+    font-family: hello_sunday;
+    letter-spacing: 0.2em;
+    font-size: 2em;
+    margin-left: 2em;
+}
+form label{
+    line-height: 2em ;
+    margin-left: 5em;
+    font-family: Quicksand_Bold_Oblique;
+}
+#conteiner{
+    background-color: rgba(255, 255, 255, 0.112);
+    font-size: 1.2em;
+    margin-left: 2em ;
+    margin-right: 60em;
+    border-radius: 2em;
+    
+}
+p{
+    text-align: justify;
+    font-family: Quicksand_Bold_Oblique;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: rgba(255, 255, 255, 0.112);
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.5;
+}
+p::first-letter {
+    font-size: 2em;
+}
+.letra_e{
+font-family: amarillo;
+}
+#button{
+    margin-left: 28em;
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;    
+}
+#button:hover {
+    background-color: #0056b3;
+}
+.volver button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 56em;
+    margin-top: 12em;
+}
+.volver button:hover {
+    background-color: #348038;
+  }
